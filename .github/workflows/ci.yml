@@ -7,8 +7,8 @@ on:
     branches: [ main, master ]
 
 env:
-  DOCKER_BACKEND_IMAGE: lukeecheng/mern-backend
-  DOCKER_FRONTEND_IMAGE: lukeecheng/mern-frontend
+  DOCKER_BACKEND_IMAGE: gene7Him/mern-backend
+  DOCKER_FRONTEND_IMAGE: gene7Him/mern-frontend
 
 jobs:
   build-and-test:
